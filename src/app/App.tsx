@@ -1,4 +1,4 @@
-import Component from '../imports/커리어상담랜딩페이지.tsx';
+import Component from '../imports/CareerCounselingPage.tsx';
 
 export default function App() {
   return <Component />;
