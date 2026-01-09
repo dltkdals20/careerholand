@@ -434,10 +434,10 @@ function HeadingBackgroundImageAndText({ text }: HeadingBackgroundImageAndTextPr
 
 export default function Component() {
   return (
-    <div className="bg-white flex justify-center w-full" data-name="커리어 상담 랜딩페이지">
-      <div className="relative w-full max-w-[1369px] min-h-[12828.5px] mx-auto overflow-x-hidden">
-      <div className="relative sm:absolute content-stretch flex flex-col h-[450px] sm:h-[550px] md:h-[625px] items-center sm:items-start left-0 pb-0 pt-[60px] sm:pt-[80px] md:pt-[96px] px-4 sm:px-[60px] md:px-[108.5px] top-0 w-full sm:w-[1369px]" data-name="Section" style={{ backgroundImage: "linear-gradient(155.462deg, rgb(239, 246, 255) 0%, rgb(238, 242, 255) 50%, rgb(236, 254, 255) 100%)" }}>
-        <div className="h-[433px] relative shrink-0 w-full flex flex-col items-center" data-name="Container">
+    <div className="bg-white flex justify-center w-full overflow-x-hidden" data-name="커리어 상담 랜딩페이지">
+      <div className="relative w-full max-w-[1369px] min-h-[12828.5px] mx-auto">
+      <div className="relative sm:absolute content-stretch flex flex-col h-auto sm:h-[550px] md:h-[625px] items-center sm:items-start left-0 pb-[40px] sm:pb-0 pt-[60px] sm:pt-[80px] md:pt-[96px] px-4 sm:px-[60px] md:px-[108.5px] top-0 w-full sm:w-[1369px]" data-name="Section" style={{ backgroundImage: "linear-gradient(155.462deg, rgb(239, 246, 255) 0%, rgb(238, 242, 255) 50%, rgb(236, 254, 255) 100%)" }}>
+        <div className="h-auto sm:h-[433px] relative shrink-0 w-full flex flex-col items-center" data-name="Container">
           <div className="relative bg-gradient-to-r from-[#155dfc] h-[30px] sm:h-[36px] rounded-[1.67772e+07px] shadow-[0px_10px_15px_-3px_rgba(0,0,0,0.1),0px_4px_6px_-4px_rgba(0,0,0,0.1)] to-[#4f39f6] top-0 w-[75px] sm:w-[84.234px] flex items-center justify-center" data-name="Container">
             <p className="font-['Inter:Regular','Noto_Sans_KR:Regular',sans-serif] font-normal leading-[20px] not-italic text-[12px] sm:text-[14px] text-center text-nowrap text-white tracking-[-0.1504px]">결 상담소</p>
           </div>
@@ -464,7 +464,7 @@ export default function Component() {
           </div>
         </div>
       </div>
-      <div className="absolute bg-gradient-to-b content-stretch flex flex-col from-white h-[642px] items-start left-0 pb-0 pt-[80px] sm:pt-[60px] px-[108.5px] sm:px-6 md:px-8 to-[rgba(239,246,255,0.3)] top-[625px] w-[1369px] sm:w-full" data-name="Section">
+      <div className="relative sm:absolute bg-gradient-to-b content-stretch flex flex-col from-white h-[642px] items-start left-0 pb-0 pt-[80px] sm:pt-[60px] px-4 sm:px-[60px] md:px-[108.5px] top-0 sm:top-[625px] w-full sm:w-[1369px]" data-name="Section">
         <div className="content-stretch flex flex-col gap-[32px] h-[482px] items-start relative shrink-0 w-full" data-name="Container">
           <div className="gap-[24px] grid grid-cols-[repeat(2,_minmax(0px,_1fr))] grid-rows-[repeat(2,_minmax(0px,_1fr))] h-[356px] relative shrink-0 w-full" data-name="Container">
             <div className="[grid-area:1_/_1] place-self-stretch relative rounded-[16px] shrink-0" data-name="Container" style={{ backgroundImage: "linear-gradient(163.599deg, rgba(239, 246, 255, 0.5) 0%, rgb(255, 255, 255) 100%)" }}>
@@ -736,9 +736,12 @@ export default function Component() {
         </div>
       ))}
       <div className="absolute bg-[#f8fafc] h-[809px] left-0 sm:left-[calc(50%+0.5px)] top-[7539px] sm:translate-x-[-50%] w-full sm:w-[1152px] px-4 sm:px-0" data-name="Section">
-        <div className="absolute font-['Inter:Medium','Noto_Sans_KR:Medium',sans-serif] font-medium h-[80px] leading-[32px] sm:leading-[40px] left-0 sm:left-[3px] not-italic text-[#0a0a0a] text-[24px] sm:text-[36px] text-center top-[38px] tracking-[0.3691px] w-full sm:w-[1152px]" data-name="Heading 2">
-          <p className="absolute left-1/2 top-[0.5px] translate-x-[-50%]">홀랜드 6유형으로</p>
-          <p className="absolute left-1/2 top-[35px] sm:top-[40.5px] translate-x-[-50%]">적합 직무군을 찾습니다</p>
+        <div
+          className="mt-[38px] flex flex-col items-center justify-center text-center font-['Inter:Medium','Noto_Sans_KR:Medium',sans-serif] font-medium leading-[32px] sm:leading-[40px] not-italic text-[#0a0a0a] text-[24px] sm:text-[36px] tracking-[0.3691px] w-full"
+          data-name="Heading 2"
+        >
+          <p>홀랜드 6유형으로</p>
+          <p className="mt-1 sm:mt-2">적합 직무군을 찾습니다</p>
         </div>
         <div className="absolute font-['Inter:Regular','Noto_Sans_KR:Regular',sans-serif] font-normal h-[48px] leading-[20px] sm:leading-[24px] left-0 sm:left-[195px] not-italic text-[#45556c] text-[12px] sm:text-[16px] text-center top-[120px] sm:top-[142px] tracking-[-0.3125px] w-full sm:w-[768px] px-4 sm:px-0" data-name="Paragraph">
           <p className="absolute left-1/2 top-[-0.5px] translate-x-[-50%] whitespace-normal break-words max-w-[90vw] sm:max-w-none sm:whitespace-nowrap">{`홀랜드는 '잘 맞는 직무군'을 빠르게 좁혀주는 지도입니다`}</p>
