@@ -436,23 +436,23 @@ export default function Component() {
   return (
     <div className="bg-white flex justify-center w-full" data-name="커리어 상담 랜딩페이지">
       <div className="relative w-full max-w-[1369px] min-h-[12828.5px] mx-auto overflow-x-hidden">
-      <div className="absolute content-stretch flex flex-col h-[450px] sm:h-[550px] md:h-[625px] items-start left-0 pb-0 pt-[60px] sm:pt-[80px] md:pt-[96px] px-4 sm:px-[60px] md:px-[108.5px] top-0 w-full sm:w-[1369px]" data-name="Section" style={{ backgroundImage: "linear-gradient(155.462deg, rgb(239, 246, 255) 0%, rgb(238, 242, 255) 50%, rgb(236, 254, 255) 100%)" }}>
-        <div className="h-[433px] relative shrink-0 w-full" data-name="Container">
-          <div className="absolute bg-gradient-to-r from-[#155dfc] h-[30px] sm:h-[36px] left-1/2 translate-x-[-50%] rounded-[1.67772e+07px] shadow-[0px_10px_15px_-3px_rgba(0,0,0,0.1),0px_4px_6px_-4px_rgba(0,0,0,0.1)] to-[#4f39f6] top-0 w-[75px] sm:w-[84.234px]" data-name="Container">
-            <p className="absolute font-['Inter:Regular','Noto_Sans_KR:Regular',sans-serif] font-normal leading-[20px] left-1/2 translate-x-[-50%] not-italic text-[12px] sm:text-[14px] text-center text-nowrap text-white top-[5px] sm:top-[8.5px] tracking-[-0.1504px]">결 상담소</p>
+      <div className="relative sm:absolute content-stretch flex flex-col h-[450px] sm:h-[550px] md:h-[625px] items-center sm:items-start left-0 pb-0 pt-[60px] sm:pt-[80px] md:pt-[96px] px-4 sm:px-[60px] md:px-[108.5px] top-0 w-full sm:w-[1369px]" data-name="Section" style={{ backgroundImage: "linear-gradient(155.462deg, rgb(239, 246, 255) 0%, rgb(238, 242, 255) 50%, rgb(236, 254, 255) 100%)" }}>
+        <div className="h-[433px] relative shrink-0 w-full flex flex-col items-center" data-name="Container">
+          <div className="relative bg-gradient-to-r from-[#155dfc] h-[30px] sm:h-[36px] rounded-[1.67772e+07px] shadow-[0px_10px_15px_-3px_rgba(0,0,0,0.1),0px_4px_6px_-4px_rgba(0,0,0,0.1)] to-[#4f39f6] top-0 w-[75px] sm:w-[84.234px] flex items-center justify-center" data-name="Container">
+            <p className="font-['Inter:Regular','Noto_Sans_KR:Regular',sans-serif] font-normal leading-[20px] not-italic text-[12px] sm:text-[14px] text-center text-nowrap text-white tracking-[-0.1504px]">결 상담소</p>
           </div>
-          <div className="absolute h-[auto] left-0 top-[40px] sm:top-[50px] md:top-[60px] w-full sm:w-[1152px] flex flex-col gap-4" data-name="Heading 1">
-            <p className="absolute font-['Inter:Medium','Noto_Sans_KR:Medium',sans-serif] font-medium leading-[40px] sm:leading-[50px] md:leading-[60px] left-1/2 not-italic text-[#0f172b] text-[24px] sm:text-[36px] md:text-[48px] text-center break-words top-0 tracking-[0.3516px] translate-x-[-50%] px-4 max-w-[90vw] sm:max-w-none">이직/취업, 계속 망설여져요?</p>
-            <p className="absolute font-['Inter:Medium','Noto_Sans_KR:Medium',sans-serif] font-medium leading-[40px] sm:leading-[50px] md:leading-[60px] left-1/2 not-italic text-[#0f172b] text-[24px] sm:text-[36px] md:text-[48px] text-center break-words top-[45px] sm:top-[60px] md:top-[75px] tracking-[0.3516px] translate-x-[-50%] px-4 max-w-[90vw] sm:max-w-none">3가지 도구로</p>
-            <div className="absolute content-stretch flex h-[40px] sm:h-[50px] md:h-[60px] items-start left-1/2 top-[90px] sm:top-[115px] md:top-[140px] w-auto translate-x-[-50%] justify-center" data-name="Text">
+          <div className="relative h-[auto] top-[20px] sm:top-[30px] md:top-[40px] w-full sm:w-[1152px] flex flex-col gap-2 sm:gap-4 items-center" data-name="Heading 1">
+            <p className="relative font-['Inter:Medium','Noto_Sans_KR:Medium',sans-serif] font-medium leading-[40px] sm:leading-[50px] md:leading-[60px] not-italic text-[#0f172b] text-[24px] sm:text-[36px] md:text-[48px] text-center break-words tracking-[0.3516px] px-4 w-full max-w-[90vw] sm:max-w-none">이직/취업, 계속 망설여져요?</p>
+            <p className="relative font-['Inter:Medium','Noto_Sans_KR:Medium',sans-serif] font-medium leading-[40px] sm:leading-[50px] md:leading-[60px] not-italic text-[#0f172b] text-[24px] sm:text-[36px] md:text-[48px] text-center break-words tracking-[0.3516px] px-4 w-full max-w-[90vw] sm:max-w-none">3가지 도구로</p>
+            <div className="relative content-stretch flex h-[40px] sm:h-[50px] md:h-[60px] items-center w-auto justify-center" data-name="Text">
               <p className="bg-clip-text font-['Inter:Medium','Noto_Sans_KR:Medium',sans-serif] font-medium leading-[40px] sm:leading-[50px] md:leading-[60px] not-italic relative shrink-0 text-[24px] sm:text-[36px] md:text-[48px] text-[rgba(0,0,0,0)] text-center break-words tracking-[0.3516px] px-4 max-w-[90vw] sm:max-w-none" style={{ WebkitTextFillColor: "transparent", backgroundImage: "linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(90deg, rgb(21, 93, 252) 0%, rgb(79, 57, 246) 100%)" }}>{`'맞는 직업군 TOP3'를`}</p>
             </div>
-            <p className="absolute font-['Inter:Medium','Noto_Sans_KR:Medium',sans-serif] font-medium leading-[40px] sm:leading-[50px] md:leading-[60px] left-1/2 not-italic text-[#0f172b] text-[24px] sm:text-[36px] md:text-[48px] text-center break-words top-[135px] sm:top-[170px] md:top-[205px] tracking-[0.3516px] translate-x-[-50%] px-4 max-w-[90vw] sm:max-w-none">빠르게 찾아드려요.</p>
+            <p className="relative font-['Inter:Medium','Noto_Sans_KR:Medium',sans-serif] font-medium leading-[40px] sm:leading-[50px] md:leading-[60px] not-italic text-[#0f172b] text-[24px] sm:text-[36px] md:text-[48px] text-center break-words tracking-[0.3516px] px-4 w-full max-w-[90vw] sm:max-w-none">빠르게 찾아드려요.</p>
           </div>
-          <div className="absolute h-[auto] left-4 sm:left-[64px] md:left-[128px] top-[200px] sm:top-[260px] md:top-[320px] w-full sm:w-[896px]" data-name="Paragraph">
-            <p className="absolute font-['Inter:Regular','Noto_Sans_KR:Regular',sans-serif] font-normal leading-[24px] sm:leading-[30px] md:leading-[36px] left-1/2 not-italic text-[#314158] text-[14px] sm:text-[16px] md:text-[18px] text-center top-0 tracking-[-0.4492px] translate-x-[-50%] w-full max-w-[90vw] sm:max-w-[884px] break-words px-4">홀랜드(6유형)로 적합 직무 지도를 만들고, 사주(십성·일주)로 역할/패턴/환경을 읽고, 가치관(8가지)으로 최종 선택 기준을 세워 직업 후보를 8~12개 → TOP3로 정리합니다.</p>
+          <div className="relative h-[auto] top-[20px] sm:top-[30px] md:top-[40px] w-full sm:w-[896px] flex items-center justify-center px-4" data-name="Paragraph">
+            <p className="relative font-['Inter:Regular','Noto_Sans_KR:Regular',sans-serif] font-normal leading-[24px] sm:leading-[30px] md:leading-[36px] not-italic text-[#314158] text-[14px] sm:text-[16px] md:text-[18px] text-center tracking-[-0.4492px] w-full max-w-[90vw] sm:max-w-[884px] break-words">홀랜드(6유형)로 적합 직무 지도를 만들고, 사주(십성·일주)로 역할/패턴/환경을 읽고, 가치관(8가지)으로 최종 선택 기준을 세워 직업 후보를 8~12개 → TOP3로 정리합니다.</p>
           </div>
-          <div className="absolute content-stretch flex flex-row gap-[12px] sm:gap-[16px] h-[50px] sm:h-[64px] items-center justify-center left-0 top-[290px] sm:top-[350px] md:top-[420px] w-full sm:w-[1152px] px-4 sm:px-0" data-name="Container">
+          <div className="relative content-stretch flex flex-row gap-[12px] sm:gap-[16px] h-[50px] sm:h-[64px] items-center justify-center top-[20px] sm:top-[30px] md:top-[40px] w-full sm:w-[1152px] px-4 sm:px-0" data-name="Container">
             <a href="https://talk.naver.com/WI2DRB9" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-[#155dfc] h-[50px] sm:h-[64px] relative rounded-[10px] shadow-[0px_10px_15px_-3px_rgba(0,0,0,0.1),0px_4px_6px_-4px_rgba(0,0,0,0.1)] shrink-0 to-[#4f39f6] w-[140px] sm:w-[161.844px] flex items-center justify-center hover:opacity-90 transition-opacity" data-name="Button">
               <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full flex items-center justify-center">
                 <p className="font-['Inter:Medium','Noto_Sans_KR:Medium',sans-serif] font-medium leading-[28px] not-italic text-[14px] sm:text-[18px] text-center text-nowrap text-white tracking-[-0.4395px]">지금 신청하기</p>
@@ -735,16 +735,16 @@ export default function Component() {
           </div>
         </div>
       ))}
-      <div className="absolute bg-[#f8fafc] h-[809px] left-[calc(50%+0.5px)] top-[7539px] translate-x-[-50%] w-[1152px]" data-name="Section">
-        <div className="absolute font-['Inter:Medium','Noto_Sans_KR:Medium',sans-serif] font-medium h-[80px] leading-[40px] left-[3px] not-italic text-[#0a0a0a] text-[36px] text-center text-nowrap top-[38px] tracking-[0.3691px] w-[1152px]" data-name="Heading 2">
-          <p className="absolute left-[575.67px] top-[0.5px] translate-x-[-50%]">홀랜드 6유형으로</p>
-          <p className="absolute left-[576.13px] top-[40.5px] translate-x-[-50%]">적합 직무군을 찾습니다</p>
+      <div className="absolute bg-[#f8fafc] h-[809px] left-0 sm:left-[calc(50%+0.5px)] top-[7539px] sm:translate-x-[-50%] w-full sm:w-[1152px] px-4 sm:px-0" data-name="Section">
+        <div className="absolute font-['Inter:Medium','Noto_Sans_KR:Medium',sans-serif] font-medium h-[80px] leading-[32px] sm:leading-[40px] left-0 sm:left-[3px] not-italic text-[#0a0a0a] text-[24px] sm:text-[36px] text-center top-[38px] tracking-[0.3691px] w-full sm:w-[1152px]" data-name="Heading 2">
+          <p className="absolute left-1/2 top-[0.5px] translate-x-[-50%]">홀랜드 6유형으로</p>
+          <p className="absolute left-1/2 top-[35px] sm:top-[40.5px] translate-x-[-50%]">적합 직무군을 찾습니다</p>
         </div>
-        <div className="absolute font-['Inter:Regular','Noto_Sans_KR:Regular',sans-serif] font-normal h-[48px] leading-[24px] left-[195px] not-italic text-[#45556c] text-[16px] text-center text-nowrap top-[142px] tracking-[-0.3125px] w-[768px]" data-name="Paragraph">
-          <p className="absolute left-[383.84px] top-[-0.5px] translate-x-[-50%]">{`홀랜드는 '잘 맞는 직무군'을 빠르게 좁혀주는 지도입니다`}</p>
-          <p className="absolute left-[384.02px] top-[23.5px] translate-x-[-50%]">(※ 실제로는 상위 2~3개 조합으로 더 정교해집니다.)</p>
+        <div className="absolute font-['Inter:Regular','Noto_Sans_KR:Regular',sans-serif] font-normal h-[48px] leading-[20px] sm:leading-[24px] left-0 sm:left-[195px] not-italic text-[#45556c] text-[12px] sm:text-[16px] text-center top-[120px] sm:top-[142px] tracking-[-0.3125px] w-full sm:w-[768px] px-4 sm:px-0" data-name="Paragraph">
+          <p className="absolute left-1/2 top-[-0.5px] translate-x-[-50%] whitespace-normal break-words max-w-[90vw] sm:max-w-none sm:whitespace-nowrap">{`홀랜드는 '잘 맞는 직무군'을 빠르게 좁혀주는 지도입니다`}</p>
+          <p className="absolute left-1/2 top-[20px] sm:top-[23.5px] translate-x-[-50%] whitespace-normal break-words max-w-[90vw] sm:max-w-none sm:whitespace-nowrap">(※ 실제로는 상위 2~3개 조합으로 더 정교해집니다.)</p>
         </div>
-        <div className="absolute gap-[24px] grid grid-cols-[repeat(3,_minmax(0px,_1fr))] grid-rows-[repeat(2,_minmax(0px,_1fr))] h-[556px] left-0 top-[230px] w-[1152px]" data-name="Container">
+        <div className="absolute gap-[16px] sm:gap-[24px] grid grid-cols-1 sm:grid-cols-[repeat(2,_minmax(0px,_1fr))] md:grid-cols-[repeat(3,_minmax(0px,_1fr))] grid-rows-auto sm:grid-rows-[repeat(3,_minmax(0px,_1fr))] md:grid-rows-[repeat(2,_minmax(0px,_1fr))] h-auto sm:h-[556px] left-0 top-[160px] sm:top-[230px] w-full sm:w-[1152px]" data-name="Container">
           <ContainerBackgroundImage4 additionalClassNames="[grid-area:1_/_1]">
             <div className="content-stretch flex gap-[12px] h-[48px] items-center relative shrink-0 w-full" data-name="Container">
               <ContainerBackgroundImage3 additionalClassNames="bg-[#ffe2e2]">
