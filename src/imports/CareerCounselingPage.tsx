@@ -433,10 +433,20 @@ function HeadingBackgroundImageAndText({ text }: HeadingBackgroundImageAndTextPr
 }
 
 export default function Component() {
+  const pageLayoutStyle = {
+    "--page-scale": "min(1, calc(100vw / 1369px))",
+    height: "calc(14510px * var(--page-scale))",
+  } as React.CSSProperties;
+
+  const pageCanvasStyle = {
+    transform: "scale(var(--page-scale))",
+  } as React.CSSProperties;
+
   return (
-    <div className="bg-white flex justify-center w-full overflow-x-hidden" data-name="커리어 상담 랜딩페이지">
-      <div className="relative w-full max-w-[1369px] min-h-[12828.5px] mx-auto">
-      <div className="relative sm:absolute content-stretch flex flex-col h-auto sm:h-[550px] md:h-[625px] items-center sm:items-start left-0 pb-[40px] sm:pb-0 pt-[60px] sm:pt-[80px] md:pt-[96px] px-4 sm:px-[60px] md:px-[108.5px] top-0 w-full sm:w-[1369px]" data-name="Section" style={{ backgroundImage: "linear-gradient(155.462deg, rgb(239, 246, 255) 0%, rgb(238, 242, 255) 50%, rgb(236, 254, 255) 100%)" }}>
+    <div className="bg-white w-full overflow-x-hidden" data-name="커리어 상담 랜딩페이지">
+      <div className="relative w-full" style={pageLayoutStyle}>
+        <div className="absolute left-1/2 top-0 w-[1369px] min-h-[14510px] -translate-x-1/2 origin-top" style={pageCanvasStyle}>
+          <div className="relative sm:absolute content-stretch flex flex-col h-auto sm:h-[550px] md:h-[625px] items-center sm:items-start left-0 pb-[40px] sm:pb-0 pt-[60px] sm:pt-[80px] md:pt-[96px] px-4 sm:px-[60px] md:px-[108.5px] top-0 w-full sm:w-[1369px]" data-name="Section" style={{ backgroundImage: "linear-gradient(155.462deg, rgb(239, 246, 255) 0%, rgb(238, 242, 255) 50%, rgb(236, 254, 255) 100%)" }}>
         <div className="h-auto sm:h-[433px] relative shrink-0 w-full flex flex-col items-center" data-name="Container">
           <div className="relative bg-gradient-to-r from-[#155dfc] h-[30px] sm:h-[36px] rounded-[1.67772e+07px] shadow-[0px_10px_15px_-3px_rgba(0,0,0,0.1),0px_4px_6px_-4px_rgba(0,0,0,0.1)] to-[#4f39f6] top-0 w-[75px] sm:w-[84.234px] flex items-center justify-center" data-name="Container">
             <p className="font-['Inter:Regular','Noto_Sans_KR:Regular',sans-serif] font-normal leading-[20px] not-italic text-[12px] sm:text-[14px] text-center text-nowrap text-white tracking-[-0.1504px]">결 상담소</p>
@@ -1491,5 +1501,6 @@ export default function Component() {
       </div>
       </div>
     </div>
+  </div>
   );
 }
