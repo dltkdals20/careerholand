@@ -745,7 +745,7 @@ export default function Component() {
           </div>
         </div>
       ))}
-      <div className="absolute bg-[#f8fafc] h-[809px] left-0 sm:left-[calc(50%+0.5px)] top-[7539px] sm:translate-x-[-50%] w-full sm:w-[1152px] px-4 sm:px-0" data-name="Section">
+      <div className="absolute bg-[#f8fafc] h-[809px] left-1/2 top-[7539px] -translate-x-1/2 w-[1152px] max-w-full px-4 sm:px-0" data-name="Section">
         <div
           className="mt-[38px] flex flex-col items-center justify-center text-center font-['Inter:Medium','Noto_Sans_KR:Medium',sans-serif] font-medium leading-[32px] sm:leading-[40px] not-italic text-[#0a0a0a] text-[24px] sm:text-[36px] tracking-[0.3691px] w-full"
           data-name="Heading 2"
